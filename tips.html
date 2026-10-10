@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPERHEAD Tips & Tricks - Survival Guide</title>
+    <meta name="description" content="Essential tips and tricks for PAPERHEAD. Combat advice, survival tips, and secrets for beginners.">
+    <link rel="canonical" href="https://paperhead.site/tips.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        paper: { white: '#F5F5F0', tan: '#D4C9B0', brown: '#8B7355', dark: '#1A1614', darker: '#0D0B0A', red: '#8B0000' }
+                    },
+                    fontFamily: { 'retro': ['VT323', 'monospace'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1A1614 0%, #0D0B0A 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-paper { background: linear-gradient(135deg, rgba(35,28,24,0.95) 0%, rgba(26,22,20,0.98) 100%); border: 1px solid rgba(212,201,176,0.15); }
+        .text-paper-tan { color: #D4C9B0; }
+        .text-paper-red { color: #8B0000; }
+        .scanline { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 1px, transparent 1px, transparent 2px); z-index: 9999; }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PAPERHEAD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PAPERHEAD');
+    </script>
+</head>
+<body class="text-paper-tan antialiased">
+    <div class="scanline"></div>
+    <header class="card-paper sticky top-0 z-50 border-b border-paper/20">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <a href="/" class="text-2xl font-bold text-paper-tan font-retro">PAPERHEAD</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-paper-tan mb-8 font-retro">Tips & Tricks</h1>
+
+        <div class="space-y-8">
+            <div class="card-paper rounded-xl p-6">
+                <h2 class="text-2xl font-bold text-paper-tan mb-4 font-retro">Survival Tips</h2>
+                <ul class="list-disc list-inside text-paper-tan/60 space-y-2">
+                    <li><strong>Move constantly</strong> - Standing still makes you an easy target</li>
+                    <li><strong>Use cover</strong> - Cardboard boxes provide excellent shelter</li>
+                    <li><strong>Listen to audio cues</strong> - Enemies often announce their presence</li>
+                    <li><strong>Watch the ground</strong> - Red stains indicate bleeding cardboard nearby</li>
+                </ul>
+            </div>
+
+            <div class="card-paper rounded-xl p-6">
+                <h2 class="text-2xl font-bold text-paper-tan mb-4 font-retro">Combat Advice</h2>
+                <ul class="list-disc list-inside text-paper-tan/60 space-y-2">
+                    <li><strong>Aim for weak points</strong> - Paper enemies have visible weak spots</li>
+                    <li><strong>Pistol is reliable</strong> - Always keep it ammo'd</li>
+                    <li><strong>Shotgun for crowds</strong> - Effective against groups</li>
+                    <li><strong>Rocket launcher</strong> - Save for bosses and tough enemies</li>
+                </ul>
+            </div>
+
+            <div class="card-paper rounded-xl p-6">
+                <h2 class="text-2xl font-bold text-paper-red mb-4 font-retro">Boss Fights</h2>
+                <ul class="list-disc list-inside text-paper-tan/60 space-y-2">
+                    <li><strong>Learn attack patterns</strong> - Each boss has predictable moves</li>
+                    <li><strong>Dodge at the right time</strong> - Rolling has invincibility frames</li>
+                    <li><strong>Hit and run</strong> - Don't try to tank damage</li>
+                    <li><strong>Use the environment</strong> - Some bosses can be stunned</li>
+                </ul>
+            </div>
+
+            <div class="card-paper rounded-xl p-6">
+                <h2 class="text-2xl font-bold text-paper-tan mb-4 font-retro">Exploration Tips</h2>
+                <ul class="list-disc list-inside text-paper-tan/60 space-y-2">
+                    <li><strong>Check every corner</strong> - Secrets are often hidden</li>
+                    <li><strong>Break boxes</strong> - Many contain health or ammo</li>
+                    <li><strong>Read the notes</strong> - They provide hints and story</li>
+                    <li><strong>Return to areas</strong> - New items appear after events</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="border-t border-paper-tan/10 py-8 mt-12">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <p class="text-paper-tan/40 text-sm">&copy; 2026 Paperhead Guide</p>
+        </div>
+    </footer>
+</body>
+</html>

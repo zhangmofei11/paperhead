@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPERHEAD - Why Would Cardboard... Bleed? | Complete Guide</title>
+    <meta name="description" content="Your complete guide to PAPERHEAD. A retro boomer shooter meets horror adventure FPS. Tips, walkthrough, and secrets for this unique indie game.">
+    <meta name="keywords" content="PAPERHEAD, Paperhead game, HypeTrain Digital, te4m, boomer shooter, horror FPS, cardboard bleeding">
+    <link rel="canonical" href="https://paperhead.site/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        paper: { white: '#F5F5F0', tan: '#D4C9B0', brown: '#8B7355', dark: '#1A1614', darker: '#0D0B0A', red: '#8B0000' }
+                    },
+                    fontFamily: { 'retro': ['VT323', 'monospace'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1A1614 0%, #0D0B0A 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-paper { background: linear-gradient(135deg, rgba(35,28,24,0.95) 0%, rgba(26,22,20,0.98) 100%); border: 1px solid rgba(212,201,176,0.15); }
+        .card-paper:hover { border-color: rgba(212,201,176,0.4); transform: translateY(-2px); }
+        .text-paper-tan { color: #D4C9B0; }
+        .text-paper-brown { color: #8B7355; }
+        .text-paper-red { color: #8B0000; }
+        .border-paper { border-color: rgba(212,201,176,0.2); }
+        .paper-texture { background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E"); }
+        .divider { height: 2px; background: linear-gradient(90deg, transparent, #D4C9B0, #8B7355, #D4C9B0, transparent); }
+        .scanline { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0,0,0,0.05) 0px, rgba(0,0,0,0.05) 1px, transparent 1px, transparent 2px); z-index: 9999; }
+        .blood-drip { background: linear-gradient(180deg, transparent 0%, #8B0000 50%, transparent 100%); }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PAPERHEAD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PAPERHEAD');
+    </script>
+</head>
+<body class="text-paper-tan antialiased">
+    <div class="scanline"></div>
+
+    <header class="card-paper sticky top-0 z-50 border-b border-paper/20">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4 group">
+                    <div class="w-14 h-14 rounded-lg bg-paper-tan flex items-center justify-center shadow-lg">
+                        <span class="font-retro text-3xl text-paper-dark">PH</span>
+                    </div>
+                    <div>
+                        <span class="font-retro text-3xl text-paper-tan tracking-wider">PAPERHEAD</span>
+                        <span class="block text-xs text-paper-brown tracking-widest">A RETRO NIGHTMARE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2">
+                    <a href="/" class="px-4 py-2 text-paper-tan bg-paper-tan/10 rounded-lg border border-paper-tan/30 font-medium">Home</a>
+                    <a href="walkthrough.html" class="px-4 py-2 text-paper-tan/70 hover:text-paper-tan hover:bg-paper-tan/5 rounded-lg transition-all">Walkthrough</a>
+                    <a href="secrets.html" class="px-4 py-2 text-paper-tan/70 hover:text-paper-tan hover:bg-paper-tan/5 rounded-lg transition-all">Secrets</a>
+                    <a href="tips.html" class="px-4 py-2 text-paper-tan/70 hover:text-paper-tan hover:bg-paper-tan/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <div class="inline-block mb-6 px-4 py-2 rounded-full border border-paper-brown/30 bg-paper-brown/10">
+                <span class="text-paper-tan font-medium tracking-wider text-sm font-retro">TE4M STUDIOS • HYPE TRAIN DIGITAL</span>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black text-paper-tan mb-6 tracking-tight font-retro">
+                PAPER<span class="text-paper-red">HEAD</span>
+            </h1>
+            <p class="text-paper-brown text-xl max-w-2xl mx-auto mb-6 leading-relaxed font-retro text-lg">
+                WHY WOULD CARDBOARD... BLEED?
+            </p>
+            <p class="text-paper-tan/60 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+                A retro boomer shooter meets horror adventure. Navigate through surreal nightmares where paper and cardboard twist into terrifying forms.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="walkthrough.html" class="px-10 py-4 bg-paper-tan text-paper-dark font-bold rounded-lg hover:bg-white transition-all shadow-lg font-retro text-xl">
+                    Start Guide
+                </a>
+                <a href="secrets.html" class="px-10 py-4 border-2 border-paper-tan text-paper-tan font-bold rounded-lg hover:bg-paper-tan/10 transition-all font-retro text-xl">
+                    Find Secrets
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider mb-16"></div>
+
+        <!-- Game Info -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-paper-tan mb-8 text-center font-retro">ABOUT THE GAME</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card-paper rounded-xl p-6">
+                    <h3 class="text-xl font-bold text-paper-tan mb-3 font-retro">THE STORY</h3>
+                    <p class="text-paper-tan/70 leading-relaxed">
+                        Paperhead is trapped in a world made of cardboard and paper. Explore surreal environments, fight bizarre enemies, and uncover the mystery behind the bleeding cardboard. A unique blend of retro shooter mechanics and psychological horror.
+                    </p>
+                </div>
+                <div class="card-paper rounded-xl p-6">
+                    <h3 class="text-xl font-bold text-paper-tan mb-3 font-retro">GAMEPLAY</h3>
+                    <ul class="text-paper-tan/70 space-y-2">
+                        <li>• Retro FPS boomer shooter mechanics</li>
+                        <li>• Horror adventure elements</li>
+                        <li>• Surreal cardboard nightmare world</li>
+                        <li>• Multiple endings to discover</li>
+                        <li>• Collectibles and secrets</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-paper-tan mb-8 text-center font-retro">GUIDE SECTIONS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="walkthrough.html" class="card-paper rounded-xl p-6 group transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-paper-tan/20 flex items-center justify-center mb-4 group-hover:bg-paper-tan/30 transition-colors">
+                        <span class="text-2xl">🎮</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-paper-tan mb-2 font-retro">Walkthrough</h3>
+                    <p class="text-paper-tan/50 text-sm">Complete game guide with all steps</p>
+                </a>
+                <a href="secrets.html" class="card-paper rounded-xl p-6 group transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-paper-red/20 flex items-center justify-center mb-4 group-hover:bg-paper-red/30 transition-colors">
+                        <span class="text-2xl">🔍</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-paper-tan mb-2 font-retro">Secrets</h3>
+                    <p class="text-paper-tan/50 text-sm">Hidden areas and easter eggs</p>
+                </a>
+                <a href="tips.html" class="card-paper rounded-xl p-6 group transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-paper-tan/20 flex items-center justify-center mb-4 group-hover:bg-paper-tan/30 transition-colors">
+                        <span class="text-2xl">💡</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-paper-tan mb-2 font-retro">Tips & Tricks</h3>
+                    <p class="text-paper-tan/50 text-sm">Survival and combat advice</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Trial Info -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-paper-tan mb-8 text-center font-retro">FREE PROLOGUE</h2>
+            <div class="card-paper rounded-2xl p-8 text-center">
+                <p class="text-paper-tan/70 mb-4">Try the free prologue before buying:</p>
+                <p class="text-2xl font-bold text-paper-tan font-retro">PAPERHEAD EP.0</p>
+                <p class="text-paper-brown text-sm mt-2">Available free on Steam</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-paper-tan/10 py-12 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="divider mb-8"></div>
+            <p class="text-paper-tan/40 text-sm">&copy; 2026 Paperhead Guide. Not affiliated with te4m or HypeTrain Digital.</p>
+            <p class="mt-2">
+                <a href="/about.html" class="text-paper-tan/60 hover:text-paper-tan">About</a> |
+                <a href="/privacy-policy.html" class="text-paper-tan/60 hover:text-paper-tan">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
